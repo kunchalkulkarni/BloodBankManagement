@@ -17,3 +17,4 @@ insert into stock values('AB-','0');
 
 
 
+ create table logins(username varchar(20) primary key, password varchar(20));
