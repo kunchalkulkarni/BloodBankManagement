@@ -168,10 +168,10 @@ public class stockIncrease extends javax.swing.JFrame {
         // TODO add your handling code here:
          try
         {
-             Connection con=ConnectionProvider.getCon();
-         Statement st=con.createStatement();
-         ResultSet rs=st.executeQuery("select * from stock");
-         jTable1.setModel(DbUtils.resultSetToTableModel(rs));
+            Connection con=ConnectionProvider.getCon();
+            Statement st=con.createStatement();
+            ResultSet rs=st.executeQuery("select * from stock");
+            jTable1.setModel(DbUtils.resultSetToTableModel(rs));
         }
         catch(Exception e)
         {
