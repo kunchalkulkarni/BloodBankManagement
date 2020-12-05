@@ -1,0 +1,20 @@
+create database bbms;
+use bbms;
+create table donor(donorId int(10) primary key,name varchar(100),fname varchar(100),mname varchar(100),mobno int(10),gender varchar(10),email varchar(100),bg varchar(100),city varchar(100),address varchar(500));
+
+alter table donor add dob varchar(20) after mname;
+
+create table stock(bg varchar(20),units int(10));
+
+insert into stock values('A+','0');
+insert into stock values('A-','0');
+insert into stock values('B+','0');
+insert into stock values('B-','0');
+insert into stock values('O+','0');
+insert into stock values('O-','0');
+insert into stock values('AB+','0');
+insert into stock values('AB-','0');
+
+
+
+ create table logins(username varchar(20) primary key, password varchar(20));
