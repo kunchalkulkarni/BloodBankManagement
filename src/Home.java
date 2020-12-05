@@ -34,6 +34,7 @@ public class Home extends javax.swing.JFrame {
         jMenu1 = new javax.swing.JMenu();
         jSeparator1 = new javax.swing.JPopupMenu.Separator();
         jMenuItem2 = new javax.swing.JMenuItem();
+        jSeparator8 = new javax.swing.JPopupMenu.Separator();
         jMenuItem1 = new javax.swing.JMenuItem();
         jSeparator2 = new javax.swing.JPopupMenu.Separator();
         jMenuItem3 = new javax.swing.JMenuItem();
@@ -59,15 +60,18 @@ public class Home extends javax.swing.JFrame {
         setUndecorated(true);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/download.jpeg"))); // NOI18N
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 910, 390));
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/BLOOD3.jpeg"))); // NOI18N
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(-500, 0, 1260, 400));
 
         jMenu1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Donor.png"))); // NOI18N
         jMenu1.setText("Donor");
+        jMenu1.setFont(new java.awt.Font("Bitstream Charter", 1, 17)); // NOI18N
         jMenu1.add(jSeparator1);
 
         jMenuItem2.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_Q, java.awt.event.InputEvent.CTRL_MASK));
-        jMenuItem2.setFont(new java.awt.Font("Ubuntu", 0, 15)); // NOI18N
+        jMenuItem2.setBackground(new java.awt.Color(217, 213, 194));
+        jMenuItem2.setFont(new java.awt.Font("Bitstream Charter", 1, 15)); // NOI18N
+        jMenuItem2.setForeground(new java.awt.Color(60, 59, 55));
         jMenuItem2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Update details.png"))); // NOI18N
         jMenuItem2.setText("Update Details");
         jMenuItem2.addActionListener(new java.awt.event.ActionListener() {
@@ -76,8 +80,11 @@ public class Home extends javax.swing.JFrame {
             }
         });
         jMenu1.add(jMenuItem2);
+        jMenu1.add(jSeparator8);
 
         jMenuItem1.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_A, java.awt.event.InputEvent.CTRL_MASK));
+        jMenuItem1.setFont(new java.awt.Font("Bitstream Charter", 1, 15)); // NOI18N
+        jMenuItem1.setForeground(new java.awt.Color(60, 59, 55));
         jMenuItem1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Add new.png"))); // NOI18N
         jMenuItem1.setText("Add New");
         jMenuItem1.addActionListener(new java.awt.event.ActionListener() {
@@ -89,6 +96,8 @@ public class Home extends javax.swing.JFrame {
         jMenu1.add(jSeparator2);
 
         jMenuItem3.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_W, java.awt.event.InputEvent.CTRL_MASK));
+        jMenuItem3.setFont(new java.awt.Font("Bitstream Charter", 1, 15)); // NOI18N
+        jMenuItem3.setForeground(new java.awt.Color(60, 59, 55));
         jMenuItem3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Details.png"))); // NOI18N
         jMenuItem3.setText("  All Donor Details");
         jMenuItem3.addActionListener(new java.awt.event.ActionListener() {
@@ -103,8 +112,11 @@ public class Home extends javax.swing.JFrame {
 
         jMenu2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/search user.png"))); // NOI18N
         jMenu2.setText("Search Blood Donor");
+        jMenu2.setFont(new java.awt.Font("Bitstream Charter", 1, 17)); // NOI18N
 
         jMenuItem4.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_L, java.awt.event.InputEvent.CTRL_MASK));
+        jMenuItem4.setFont(new java.awt.Font("Bitstream Charter", 1, 15)); // NOI18N
+        jMenuItem4.setForeground(new java.awt.Color(60, 59, 55));
         jMenuItem4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Location.png"))); // NOI18N
         jMenuItem4.setText("Location");
         jMenuItem4.addActionListener(new java.awt.event.ActionListener() {
@@ -116,6 +128,8 @@ public class Home extends javax.swing.JFrame {
         jMenu2.add(jSeparator3);
 
         jMenuItem5.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_B, java.awt.event.InputEvent.CTRL_MASK));
+        jMenuItem5.setFont(new java.awt.Font("Bitstream Charter", 1, 15)); // NOI18N
+        jMenuItem5.setForeground(new java.awt.Color(60, 59, 55));
         jMenuItem5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Blood group.png"))); // NOI18N
         jMenuItem5.setText("Blood Group");
         jMenuItem5.addActionListener(new java.awt.event.ActionListener() {
@@ -129,8 +143,11 @@ public class Home extends javax.swing.JFrame {
 
         jMenu3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stock.png"))); // NOI18N
         jMenu3.setText("Stock");
+        jMenu3.setFont(new java.awt.Font("Bitstream Charter", 1, 17)); // NOI18N
 
         jMenuItem6.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_I, 0));
+        jMenuItem6.setFont(new java.awt.Font("Bitstream Charter", 1, 15)); // NOI18N
+        jMenuItem6.setForeground(new java.awt.Color(60, 59, 55));
         jMenuItem6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Inc.png"))); // NOI18N
         jMenuItem6.setText("Increase");
         jMenuItem6.addActionListener(new java.awt.event.ActionListener() {
@@ -142,6 +159,8 @@ public class Home extends javax.swing.JFrame {
         jMenu3.add(jSeparator4);
 
         jMenuItem7.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_D, java.awt.event.InputEvent.SHIFT_MASK));
+        jMenuItem7.setFont(new java.awt.Font("Bitstream Charter", 1, 15)); // NOI18N
+        jMenuItem7.setForeground(new java.awt.Color(60, 59, 55));
         jMenuItem7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Dec.png"))); // NOI18N
         jMenuItem7.setText("Decrease");
         jMenuItem7.addActionListener(new java.awt.event.ActionListener() {
@@ -153,6 +172,8 @@ public class Home extends javax.swing.JFrame {
         jMenu3.add(jSeparator5);
 
         jMenuItem8.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_Q, java.awt.event.InputEvent.SHIFT_MASK));
+        jMenuItem8.setFont(new java.awt.Font("Bitstream Charter", 1, 15)); // NOI18N
+        jMenuItem8.setForeground(new java.awt.Color(60, 59, 55));
         jMenuItem8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Details.png"))); // NOI18N
         jMenuItem8.setText("Details");
         jMenuItem8.addActionListener(new java.awt.event.ActionListener() {
@@ -166,8 +187,11 @@ public class Home extends javax.swing.JFrame {
 
         jMenu4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/delete donor.png"))); // NOI18N
         jMenu4.setText("Delete Donor");
+        jMenu4.setFont(new java.awt.Font("Bitstream Charter", 1, 17)); // NOI18N
 
         jMenuItem9.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_D, java.awt.event.InputEvent.ALT_MASK));
+        jMenuItem9.setFont(new java.awt.Font("Bitstream Charter", 1, 15)); // NOI18N
+        jMenuItem9.setForeground(new java.awt.Color(60, 59, 55));
         jMenuItem9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/delete.png"))); // NOI18N
         jMenuItem9.setText("Delete Donor");
         jMenuItem9.addActionListener(new java.awt.event.ActionListener() {
@@ -181,8 +205,11 @@ public class Home extends javax.swing.JFrame {
 
         jMenu5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/exit.png"))); // NOI18N
         jMenu5.setText("Exit");
+        jMenu5.setFont(new java.awt.Font("Bitstream Charter", 1, 17)); // NOI18N
 
         jMenuItem10.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_L, 0));
+        jMenuItem10.setFont(new java.awt.Font("Bitstream Charter", 1, 15)); // NOI18N
+        jMenuItem10.setForeground(new java.awt.Color(60, 59, 55));
         jMenuItem10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Logout.png"))); // NOI18N
         jMenuItem10.setText("Log out");
         jMenuItem10.addActionListener(new java.awt.event.ActionListener() {
@@ -194,6 +221,8 @@ public class Home extends javax.swing.JFrame {
         jMenu5.add(jSeparator6);
 
         jMenuItem11.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_X, java.awt.event.InputEvent.ALT_MASK));
+        jMenuItem11.setFont(new java.awt.Font("Bitstream Charter", 1, 15)); // NOI18N
+        jMenuItem11.setForeground(new java.awt.Color(60, 59, 55));
         jMenuItem11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Exit application.png"))); // NOI18N
         jMenuItem11.setText("Exit");
         jMenuItem11.addActionListener(new java.awt.event.ActionListener() {
@@ -335,5 +364,6 @@ public class Home extends javax.swing.JFrame {
     private javax.swing.JPopupMenu.Separator jSeparator5;
     private javax.swing.JPopupMenu.Separator jSeparator6;
     private javax.swing.JPopupMenu.Separator jSeparator7;
+    private javax.swing.JPopupMenu.Separator jSeparator8;
     // End of variables declaration//GEN-END:variables
 }
