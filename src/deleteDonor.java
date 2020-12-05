@@ -72,14 +72,14 @@ public class deleteDonor extends javax.swing.JFrame {
         jLabel1.setFont(new java.awt.Font("Bitstream Charter", 1, 36)); // NOI18N
         jLabel1.setText("DELETE DONOR");
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(177, 12, -1, -1));
-        getContentPane().add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 67, 704, 10));
+        getContentPane().add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 67, 700, 10));
 
-        jLabel2.setFont(new java.awt.Font("Bitstream Charter", 1, 15)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Bitstream Charter", 1, 17)); // NOI18N
         jLabel2.setText("Donor Id");
         getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(103, 83, -1, -1));
         getContentPane().add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(264, 74, 97, -1));
 
-        jButton1.setFont(new java.awt.Font("Bitstream Charter", 1, 15)); // NOI18N
+        jButton1.setFont(new java.awt.Font("Bitstream Charter", 1, 19)); // NOI18N
         jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/search1.png"))); // NOI18N
         jButton1.setText("Search");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -88,29 +88,29 @@ public class deleteDonor extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(459, 76, -1, -1));
-        getContentPane().add(jSeparator2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 118, 704, 10));
+        getContentPane().add(jSeparator2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 118, 700, 10));
 
-        jLabel3.setFont(new java.awt.Font("Bitstream Charter", 1, 15)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("Bitstream Charter", 1, 17)); // NOI18N
         jLabel3.setText("Full Name");
         getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 142, -1, -1));
 
-        jLabel4.setFont(new java.awt.Font("Bitstream Charter", 1, 15)); // NOI18N
+        jLabel4.setFont(new java.awt.Font("Bitstream Charter", 1, 17)); // NOI18N
         jLabel4.setText("Father Name");
         getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 187, -1, -1));
 
-        jLabel5.setFont(new java.awt.Font("Bitstream Charter", 1, 15)); // NOI18N
+        jLabel5.setFont(new java.awt.Font("Bitstream Charter", 1, 17)); // NOI18N
         jLabel5.setText("Mother Name");
         getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 232, -1, -1));
 
-        jLabel6.setFont(new java.awt.Font("Bitstream Charter", 1, 15)); // NOI18N
+        jLabel6.setFont(new java.awt.Font("Bitstream Charter", 1, 17)); // NOI18N
         jLabel6.setText("Date Of Birth");
         getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 278, -1, -1));
 
-        jLabel7.setFont(new java.awt.Font("Bitstream Charter", 1, 15)); // NOI18N
+        jLabel7.setFont(new java.awt.Font("Bitstream Charter", 1, 17)); // NOI18N
         jLabel7.setText("Mob No");
         getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 324, -1, -1));
 
-        jLabel8.setFont(new java.awt.Font("Bitstream Charter", 1, 15)); // NOI18N
+        jLabel8.setFont(new java.awt.Font("Bitstream Charter", 1, 17)); // NOI18N
         jLabel8.setText("Gender");
         getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 368, -1, -1));
         getContentPane().add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(133, 134, 169, -1));
@@ -120,19 +120,19 @@ public class deleteDonor extends javax.swing.JFrame {
         getContentPane().add(jTextField6, new org.netbeans.lib.awtextra.AbsoluteConstraints(133, 316, 175, -1));
         getContentPane().add(jTextField7, new org.netbeans.lib.awtextra.AbsoluteConstraints(133, 360, 175, -1));
 
-        jLabel9.setFont(new java.awt.Font("Bitstream Charter", 1, 15)); // NOI18N
+        jLabel9.setFont(new java.awt.Font("Bitstream Charter", 1, 17)); // NOI18N
         jLabel9.setText("Email");
         getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(337, 142, -1, -1));
 
-        jLabel10.setFont(new java.awt.Font("Bitstream Charter", 1, 15)); // NOI18N
+        jLabel10.setFont(new java.awt.Font("Bitstream Charter", 1, 17)); // NOI18N
         jLabel10.setText("Blood Group");
         getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(337, 187, -1, -1));
 
-        jLabel11.setFont(new java.awt.Font("Bitstream Charter", 1, 15)); // NOI18N
+        jLabel11.setFont(new java.awt.Font("Bitstream Charter", 1, 17)); // NOI18N
         jLabel11.setText("City");
         getContentPane().add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(337, 232, -1, -1));
 
-        jLabel12.setFont(new java.awt.Font("Bitstream Charter", 1, 15)); // NOI18N
+        jLabel12.setFont(new java.awt.Font("Bitstream Charter", 1, 17)); // NOI18N
         jLabel12.setText("Address");
         getContentPane().add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(337, 278, -1, -1));
         getContentPane().add(jTextField8, new org.netbeans.lib.awtextra.AbsoluteConstraints(437, 134, 174, -1));
@@ -144,9 +144,9 @@ public class deleteDonor extends javax.swing.JFrame {
         jScrollPane1.setViewportView(jTextArea1);
 
         getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 270, -1, -1));
-        getContentPane().add(jSeparator3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 393, 704, 10));
+        getContentPane().add(jSeparator3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 393, 700, 10));
 
-        jButton2.setFont(new java.awt.Font("Bitstream Charter", 1, 15)); // NOI18N
+        jButton2.setFont(new java.awt.Font("Bitstream Charter", 1, 19)); // NOI18N
         jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/delete.png"))); // NOI18N
         jButton2.setText("Delete");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -156,7 +156,7 @@ public class deleteDonor extends javax.swing.JFrame {
         });
         getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(82, 409, -1, -1));
 
-        jButton3.setFont(new java.awt.Font("Bitstream Charter", 1, 15)); // NOI18N
+        jButton3.setFont(new java.awt.Font("Bitstream Charter", 1, 19)); // NOI18N
         jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Update details.png"))); // NOI18N
         jButton3.setText("Reset");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
@@ -166,7 +166,7 @@ public class deleteDonor extends javax.swing.JFrame {
         });
         getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 409, -1, -1));
 
-        jButton4.setFont(new java.awt.Font("Bitstream Charter", 1, 15)); // NOI18N
+        jButton4.setFont(new java.awt.Font("Bitstream Charter", 1, 19)); // NOI18N
         jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Exit application.png"))); // NOI18N
         jButton4.setText("Close");
         jButton4.addActionListener(new java.awt.event.ActionListener() {
@@ -177,7 +177,7 @@ public class deleteDonor extends javax.swing.JFrame {
         getContentPane().add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(462, 409, -1, -1));
 
         jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/all page background image.png"))); // NOI18N
-        getContentPane().add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 700, 510));
+        getContentPane().add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -30, 700, 490));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents

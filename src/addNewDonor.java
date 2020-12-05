@@ -76,12 +76,12 @@ public class addNewDonor extends javax.swing.JFrame {
         });
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel1.setFont(new java.awt.Font("Liberation Sans", 1, 48)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Bitstream Charter", 1, 48)); // NOI18N
         jLabel1.setText("Add New Donor");
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(176, 12, 370, -1));
-        getContentPane().add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 74, 700, 10));
+        getContentPane().add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 70, 700, 10));
 
-        jLabel2.setFont(new java.awt.Font("Liberation Sans", 1, 16)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Bitstream Charter", 1, 18)); // NOI18N
         jLabel2.setText("New Donor ID");
         getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 90, -1, 23));
 
@@ -89,27 +89,27 @@ public class addNewDonor extends javax.swing.JFrame {
         jLabel3.setForeground(new java.awt.Color(241, 19, 19));
         getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 90, 280, 20));
 
-        jLabel4.setFont(new java.awt.Font("Liberation Sans", 1, 16)); // NOI18N
+        jLabel4.setFont(new java.awt.Font("Bitstream Charter", 1, 18)); // NOI18N
         jLabel4.setText("Full Name");
         getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 140, -1, -1));
 
-        jLabel5.setFont(new java.awt.Font("Liberation Sans", 1, 16)); // NOI18N
+        jLabel5.setFont(new java.awt.Font("Bitstream Charter", 1, 18)); // NOI18N
         jLabel5.setText("Father Name");
         getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, -1, -1));
 
-        jLabel6.setFont(new java.awt.Font("Liberation Sans", 1, 16)); // NOI18N
+        jLabel6.setFont(new java.awt.Font("Bitstream Charter", 1, 18)); // NOI18N
         jLabel6.setText("Mother Name");
         getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 240, -1, -1));
 
-        jLabel7.setFont(new java.awt.Font("Liberation Sans", 1, 16)); // NOI18N
+        jLabel7.setFont(new java.awt.Font("Bitstream Charter", 1, 18)); // NOI18N
         jLabel7.setText("Date Of Birth");
         getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 290, -1, -1));
 
-        jLabel8.setFont(new java.awt.Font("Liberation Sans", 1, 16)); // NOI18N
+        jLabel8.setFont(new java.awt.Font("Bitstream Charter", 1, 17)); // NOI18N
         jLabel8.setText("Mobile Number");
         getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 340, -1, -1));
 
-        jLabel9.setFont(new java.awt.Font("Liberation Sans", 1, 16)); // NOI18N
+        jLabel9.setFont(new java.awt.Font("Bitstream Charter", 1, 18)); // NOI18N
         jLabel9.setText("Gender");
         getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 390, -1, -1));
 
@@ -133,22 +133,23 @@ public class addNewDonor extends javax.swing.JFrame {
         jTextField5.setFont(new java.awt.Font("Liberation Sans", 0, 15)); // NOI18N
         getContentPane().add(jTextField5, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 290, 210, -1));
 
+        jComboBox1.setFont(new java.awt.Font("Bitstream Charter", 1, 17)); // NOI18N
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Male", "Female", "Prefer not to tell" }));
         getContentPane().add(jComboBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 390, 150, -1));
 
-        jLabel10.setFont(new java.awt.Font("Liberation Sans", 1, 16)); // NOI18N
+        jLabel10.setFont(new java.awt.Font("Bitstream Charter", 1, 18)); // NOI18N
         jLabel10.setText("Email");
         getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 140, -1, -1));
 
-        jLabel11.setFont(new java.awt.Font("Liberation Sans", 1, 16)); // NOI18N
+        jLabel11.setFont(new java.awt.Font("Bitstream Charter", 1, 18)); // NOI18N
         jLabel11.setText("Blood Group");
         getContentPane().add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 190, -1, -1));
 
-        jLabel12.setFont(new java.awt.Font("Liberation Sans", 1, 16)); // NOI18N
+        jLabel12.setFont(new java.awt.Font("Bitstream Charter", 1, 18)); // NOI18N
         jLabel12.setText("City");
         getContentPane().add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 240, -1, -1));
 
-        jLabel13.setFont(new java.awt.Font("Liberation Sans", 1, 16)); // NOI18N
+        jLabel13.setFont(new java.awt.Font("Bitstream Charter", 1, 18)); // NOI18N
         jLabel13.setText("Address");
         getContentPane().add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 290, -1, -1));
 
@@ -158,6 +159,7 @@ public class addNewDonor extends javax.swing.JFrame {
         jTextField8.setFont(new java.awt.Font("Liberation Sans", 0, 15)); // NOI18N
         getContentPane().add(jTextField8, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 240, 210, -1));
 
+        jComboBox2.setFont(new java.awt.Font("Bitstream Charter", 1, 17)); // NOI18N
         jComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "A+", "A-", "B+", "B-", "O+", "O-", "AB+", "AB-" }));
         getContentPane().add(jComboBox2, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 190, 140, -1));
 
@@ -168,7 +170,7 @@ public class addNewDonor extends javax.swing.JFrame {
 
         getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 310, 270, 140));
 
-        jButton1.setFont(new java.awt.Font("Liberation Sans", 1, 15)); // NOI18N
+        jButton1.setFont(new java.awt.Font("Bitstream Charter", 1, 20)); // NOI18N
         jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/save.png"))); // NOI18N
         jButton1.setText("Save");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -176,9 +178,9 @@ public class addNewDonor extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 470, -1, -1));
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 460, -1, -1));
 
-        jButton2.setFont(new java.awt.Font("Liberation Sans", 1, 15)); // NOI18N
+        jButton2.setFont(new java.awt.Font("Bitstream Charter", 1, 20)); // NOI18N
         jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Update details.png"))); // NOI18N
         jButton2.setText("Reset");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -186,9 +188,9 @@ public class addNewDonor extends javax.swing.JFrame {
                 jButton2ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 470, -1, -1));
+        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 460, -1, -1));
 
-        jButton3.setFont(new java.awt.Font("Liberation Sans", 1, 15)); // NOI18N
+        jButton3.setFont(new java.awt.Font("Bitstream Charter", 1, 20)); // NOI18N
         jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Exit application.png"))); // NOI18N
         jButton3.setText("Close");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
@@ -196,12 +198,12 @@ public class addNewDonor extends javax.swing.JFrame {
                 jButton3ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 470, -1, -1));
+        getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 460, -1, -1));
 
         jLabel14.setFont(new java.awt.Font("Liberation Sans", 1, 16)); // NOI18N
         jLabel14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/all page background image.png"))); // NOI18N
         jLabel14.setText("jLabel14");
-        getContentPane().add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 700, 510));
+        getContentPane().add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 700, 500));
 
         jLabel15.setText("jLabel15");
         getContentPane().add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 90, -1, -1));
