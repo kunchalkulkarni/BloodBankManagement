@@ -17,7 +17,7 @@ public class loginServer {
         
         try{
             Registry reg = LocateRegistry.createRegistry(1099);
-            loginImplementation lp = new  loginImplementation();
+            loginImplementation lp = new loginImplementation();
             reg.rebind("login", lp);
             System.out.println("Server is ready..!");
         }
